@@ -5,7 +5,8 @@ Array [
   Array [
     "client",
     "index.js?http:",
-    "localhost:8100",
+    "localhost:8100&sockPath=",
+    "sockjs-node",
   ],
   Array [
     "node_modules",
@@ -24,7 +25,8 @@ Array [
   Array [
     "client",
     "index.js?http:",
-    "localhost:8100",
+    "localhost:8100&sockPath=",
+    "sockjs-node",
   ],
   Array [
     "node_modules",

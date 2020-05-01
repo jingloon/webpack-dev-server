@@ -56,7 +56,7 @@ describe('transportMode', () => {
     ];
 
     beforeAll(() => {
-      consoleMock = jest.spyOn(console, 'log').mockImplementation();
+      // consoleMock = jest.spyOn(console, 'log').mockImplementation();
     });
 
     afterAll(() => {
@@ -214,7 +214,7 @@ describe('transportMode', () => {
                     });
 
                     this.socket.installHandlers(this.server.listeningApp, {
-                      prefix: this.server.sockPath,
+                      prefix: this.server.options.sockPath,
                     });
 
                     sockPath = server.options.sockPath;
@@ -290,7 +290,7 @@ describe('transportMode', () => {
                     });
 
                     this.socket.installHandlers(this.server.listeningApp, {
-                      prefix: this.server.sockPath,
+                      prefix: this.server.options.sockPath,
                     });
                   }
 
@@ -384,7 +384,7 @@ describe('transportMode', () => {
                     });
 
                     this.socket.installHandlers(this.server.listeningApp, {
-                      prefix: this.server.sockPath,
+                      prefix: this.server.options.sockPath,
                     });
                   }
 

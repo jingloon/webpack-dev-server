@@ -22,9 +22,10 @@ describe('WebsocketServer', () => {
           error: () => {},
           debug: () => {},
         },
-        sockPath: '/ws-server',
+        options: {
+          sockPath: '/ws-server',
+        },
         listeningApp,
-        heartbeatInterval: 800,
       };
       socketServer = new WebsocketServer(server);
       done();

@@ -7,6 +7,10 @@ Object {
     "/path/to/dist2",
   ],
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "sockjs",
@@ -19,6 +23,10 @@ exports[`normalizeOptions contentBase string should set correct options 1`] = `
 Object {
   "contentBase": "/path/to/dist",
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "sockjs",
@@ -30,6 +38,10 @@ Object {
 exports[`normalizeOptions contentBasePublicPath string should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/content-base-public-path",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "sockjs",
@@ -41,6 +53,10 @@ Object {
 exports[`normalizeOptions no options should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "sockjs",
@@ -52,6 +68,10 @@ Object {
 exports[`normalizeOptions transportMode custom client path should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "/path/to/custom/client/",
     "server": "sockjs",
@@ -63,6 +83,10 @@ Object {
 exports[`normalizeOptions transportMode custom server class should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": [Function],
@@ -74,6 +98,10 @@ Object {
 exports[`normalizeOptions transportMode custom server path should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "/path/to/custom/server/",
@@ -85,6 +113,10 @@ Object {
 exports[`normalizeOptions transportMode sockjs string should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "sockjs",
@@ -96,6 +128,10 @@ Object {
 exports[`normalizeOptions transportMode ws object should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "ws",
     "server": "ws",
@@ -107,6 +143,10 @@ Object {
 exports[`normalizeOptions transportMode ws string should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "ws",
     "server": "ws",
@@ -118,6 +158,10 @@ Object {
 exports[`normalizeOptions watchOptions should set correct options 1`] = `
 Object {
   "contentBasePublicPath": "/",
+  "hot": true,
+  "serveIndex": true,
+  "sockPath": "/sockjs-node",
+  "stats": Object {},
   "transportMode": Object {
     "client": "sockjs",
     "server": "sockjs",

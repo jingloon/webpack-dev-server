@@ -22,7 +22,9 @@ describe('sockPath options', () => {
     });
 
     it('defaults to a path', () => {
-      expect(!!server.sockPath.match(/\/[a-z0-9\-/]+[^/]$/)).toBeTruthy();
+      expect(
+        !!server.options.sockPath.match(/\/[a-z0-9\-/]+[^/]$/)
+      ).toBeTruthy();
     });
 
     it('responds with a 200', (done) => {
@@ -46,7 +48,7 @@ describe('sockPath options', () => {
     });
 
     it('sets the sock path correctly and strips leading and trailing /s', () => {
-      expect(server.sockPath).toEqual(path);
+      expect(server.options.sockPath).toEqual(path);
     });
 
     it('responds with a 200 second', (done) => {
